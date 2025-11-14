@@ -1,1 +1,19 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P-Regular", fantasy;
+  --main-font-weight: 410;
+  --main-font-title-weight: 715;
+  --main-font-title-width: 100;
+  --main-font-size: 18px;
+  --button-font-size: 14px;
+  --main-content-width: clamp(375px, 700px, 48.61dvw);
+  --header-title-font-size: clamp(49px, 4.5vw, 65px);
+  --header-subtitle-font-size: clamp(14px, 1.6dvw, 23px);
+  --border-settings: solid 2px #000;
+  --label-stroke-color: #ffffff80;
+  --page-bg-color: #fff;
+  --accent-color: #000;
+  --contour-fill-color: #000;
+  --sparks-fill-color: #FF0000;
+}
