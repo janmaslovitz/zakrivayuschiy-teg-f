@@ -74,6 +74,7 @@ header {
 
 .card__title {
   font-variation-settings: "wght" var(--main-font-title-weight);
+  border-bottom: var(--border-settings);
   min-block-size: 30px;
   padding-inline: 10px;
   padding-block: 4px;
@@ -86,8 +87,6 @@ header {
 
 .card__image {
   position: relative;
-  border-top: var(--border-settings);
-  border-bottom: var(--border-settings);
   aspect-ratio: 1 / 1;
 }
 
@@ -117,11 +116,13 @@ header {
 }
 
 .card-text__wrapper {
+  
   display: flex;
   flex-direction: column;
   gap: 25px;
   padding-inline: 25px;
   padding-block-start: 29px;
+  border-top: var(--border-settings);
 }
 
 .card__like-button-bar {
