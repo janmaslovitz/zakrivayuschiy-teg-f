@@ -1,7 +1,3 @@
-<!-- Обращаю Ваше внимание на ваше первое замечание по макету хедера: просмотрите изображение 'notice.webp'. 
- По макету с заданными настройками всё сходится. 
- Прошу проверить, правильно ли заданы настройки отображения у меня или у Вас. -->
-
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -17,12 +13,11 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
+
   <body class="page">
     <header class="header">
-      <div class="logo-group">
-        <h1 class="logo-group__title">&lt;/html&gt;</h1>
-        <p class="logo-group__subtitle">Закрывающий тег</p>
-      </div>
+      <h1 class="logo-group__title">&lt;/html&gt;</h1>
+      <p class="logo-group__subtitle">Закрывающий тег</p>
     </header>
     <main>
       <article class="card">
@@ -33,14 +28,16 @@
           <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
           <picture>
             <source
-              src="./images/its-dangerous-to-go-alone-meme.webp"
-              type="image/webp" />
+              srcset="./images/its-dangerous-to-go-alone-meme.webp"
+              type="image/webp"
+            />
             <img
               loading="lazy"
               src="./images/its-dangerous-to-go-alone-meme.jpg"
               alt="Мем про нелепого котёнка на руках с подписью 'Опасно идти одному! Возьми это.'"
               class="card__image bright"
-          /></picture>
+            />
+          </picture>
         </figure>
         <div class="card-text__wrapper">
           <p>
@@ -98,13 +95,17 @@
         <figure class="card-image__wrapper">
           <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
           <picture>
-            <source src="./images/i-fear-no-man-meme.webp" type="image/webp" />
+            <source
+              srcset="./images/i-fear-no-man-meme.webp"
+              type="image/webp"
+            />
             <img
               loading="lazy"
               src="./images/i-fear-no-man-meme.jpg"
               alt="Мем-комикс 'Я никого не боюсь. Но эта штука. Она меня пугает.'"
               class="card__image high-contrast"
-          /></picture>
+            />
+          </picture>
         </figure>
         <div class="card-text__wrapper">
           <p>
@@ -166,13 +167,14 @@
         <figure class="card-image__wrapper">
           <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
           <picture>
-            <source src="./images/honest-work-meme.webp" type="image/webp" />
+            <source srcset="./images/honest-work-meme.webp" type="image/webp" />
             <img
               loading="lazy"
               src="./images/honest-work-meme.jpg"
               alt="Мем про фермера, фраза 'Это немного, но это честная работа'"
               class="card__image blurry"
-          /></picture>
+            />
+          </picture>
         </figure>
         <div class="card-text__wrapper">
           <p>
@@ -232,7 +234,10 @@
         <figure class="card-image__wrapper">
           <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
           <picture>
-            <source src="./images/kitten-smokes-meme.webp" type="image/webp" />
+            <source
+              srcset="./images/kitten-smokes-meme.webp"
+              type="image/webp"
+            />
             <img
               loading="lazy"
               src="./images/kitten-smokes-meme.jpg"
@@ -301,8 +306,8 @@
         <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
         <figure class="card-image__wrapper">
           <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
-          <picture
-            ><source src="./images/rats-meme.webp" type="image/webp" />
+          <picture>
+            <source srcset="./images/rats-meme.webp" type="image/webp" />
             <img
               loading="lazy"
               src="./images/rats-meme.jpg"
@@ -372,8 +377,8 @@
         <h2 class="card__title">3 спринт: Обходные стратегии</h2>
         <figure class="card-image__wrapper">
           <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
-          <picture
-            ><source src="./images/max-payne-meme.webp" type="image/webp" />
+          <picture>
+            <source srcset="./images/max-payne-meme.webp" type="image/webp" />
             <img
               loading="lazy"
               src="./images/max-payne-meme.jpg"
@@ -440,10 +445,10 @@
         <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
         <figure class="card-image__wrapper">
           <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
-          <picture
-            ><source
-              src="./images/doom-cover-art-meme.webp"
-              type="image/webp>"
+          <picture>
+            <source
+              srcset="./images/doom-cover-art-meme.webp"
+              type="image/webp"
             />
             <img
               loading="lazy"
@@ -514,7 +519,7 @@
         <figure class="card-image__wrapper">
           <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
           <picture>
-            <source src="images/raccoon-meme.webp" type="image/webp" />
+            <source srcset="images/raccoon-meme.webp" type="image/webp" />
             <img
               loading="lazy"
               src="./images/raccoon-meme.jpg"

@@ -41,24 +41,17 @@
 header {
   inline-size: var(--main-content-width);
   font-family: var(--accent-font), fantasy;
-  background-color: #fff;
+  background-color: var(--page-bg-color);
   outline: var(--border-settings);
   margin-block: 100px 98px;
-  block-size: clamp(327px, 38.33dvh, 368px);
-  padding-block: clamp(122px, 13.54dvh, 130px);
-}
-
-.logo-group {
-  max-block-size: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-block: clamp(6.78rem, 0.676vw + 6.622rem, 7.23rem);
+  text-align: center;
   text-transform: uppercase;
-  gap: 20px;
 }
 
 .logo-group__title {
   font-size: var(--header-title-font-size);
+  margin-block-end: 20px;
 }
 
 .logo-group__subtitle {
@@ -232,7 +225,7 @@ header {
 
 .memory-dialog {
   max-width: 353px;
-  padding-inline: 30px;
+  padding-inline: 40px;
   padding-block: 30px;
 }
 

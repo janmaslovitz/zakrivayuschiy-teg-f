@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-font: "Inter-Variable", sans-serif;
-  --accent-font: "PressStart2P-Regular", fantasy;
+  --accent-font: "PressStart2P", fantasy;
   --main-font-weight: 410;
   --main-font-title-weight: 715;
   --main-font-title-width: 100;
@@ -15,5 +15,5 @@
   --page-bg-color: #fff;
   --accent-color: #000;
   --contour-fill-color: #000;
-  --sparks-fill-color: #FF0000;
+  --sparks-fill-color: #ff0000;
 }
