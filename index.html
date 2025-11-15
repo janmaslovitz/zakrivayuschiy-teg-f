@@ -1,3 +1,7 @@
+<!-- Обращаю Ваше внимание на ваше первое замечание по макету хедера: просмотрите изображение 'notice.webp'. 
+ По макету с заданными настройками всё сходится. 
+ Прошу проверить, правильно ли заданы настройки отображения у меня или у Вас. -->
+
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -11,7 +15,6 @@
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/filters.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
@@ -23,18 +26,22 @@
     </header>
     <main>
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
-        <div class="card-image__wrapper">
-          <span class="card-image__label">&lt;/html&gt;</span>
-          <img
-            loading="lazy"
-            src="./images/its-dangerous-to-go-alone-meme.jpg"
-            alt="Мем про нелепого котёнка на руках с подписью 'Опасно идти одному! Возьми это.'"
-            class="card__image bright"
-          />
-        </div>
+        </h2>
+        <figure class="card-image__wrapper">
+          <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
+          <picture>
+            <source
+              src="./images/its-dangerous-to-go-alone-meme.webp"
+              type="image/webp" />
+            <img
+              loading="lazy"
+              src="./images/its-dangerous-to-go-alone-meme.jpg"
+              alt="Мем про нелепого котёнка на руках с подписью 'Опасно идти одному! Возьми это.'"
+              class="card__image bright"
+          /></picture>
+        </figure>
         <div class="card-text__wrapper">
           <p>
             Это было самое начало пути. На этом этапе важно было проникнуться
@@ -87,16 +94,18 @@
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">1 спринт: Я — чистый лист</h3>
-        <div class="card-image__wrapper">
-          <span class="card-image__label">&lt;/html&gt;</span>
-          <img
-            loading="lazy"
-            src="./images/i-fear-no-man-meme.jpg"
-            alt="Мем-комикс 'Я никого не боюсь. Но эта штука. Она меня пугает.'"
-            class="card__image high-contrast"
-          />
-        </div>
+        <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+        <figure class="card-image__wrapper">
+          <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
+          <picture>
+            <source src="./images/i-fear-no-man-meme.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="./images/i-fear-no-man-meme.jpg"
+              alt="Мем-комикс 'Я никого не боюсь. Но эта штука. Она меня пугает.'"
+              class="card__image high-contrast"
+          /></picture>
+        </figure>
         <div class="card-text__wrapper">
           <p>
             На первых этапах мы работали со страхами и сомнениями, которые часто
@@ -106,8 +115,7 @@
             будет слишком сложно? что, если я не справлюсь?
           </p>
           <p>
-            Любопытство пока ещё превалировало над моей неспособностью быстро
-            разбираться в материале.
+            На этом этапе любознательность всё ещё побеждала прокрастинацию.
           </p>
         </div>
         <div class="card__like-button-bar">
@@ -154,16 +162,18 @@
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">1 спринт: А если не получится?</h3>
-        <div class="card-image__wrapper">
-          <span class="card-image__label">&lt;/html&gt;</span>
-          <img
-            loading="lazy"
-            src="./images/honest-work-meme.jpg"
-            alt="Мем про фермера, фраза 'Это немного, но это честная работа'"
-            class="card__image blurry"
-          />
-        </div>
+        <h2 class="card__title">1 спринт: А если не получится?</h2>
+        <figure class="card-image__wrapper">
+          <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
+          <picture>
+            <source src="./images/honest-work-meme.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="./images/honest-work-meme.jpg"
+              alt="Мем про фермера, фраза 'Это немного, но это честная работа'"
+              class="card__image blurry"
+          /></picture>
+        </figure>
         <div class="card-text__wrapper">
           <p>
             Первый проект — позади! Но это всё ещё самое начало пути. Радость
@@ -218,16 +228,19 @@
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
-        <div class="card-image__wrapper">
-          <span class="card-image__label">&lt;/html&gt;</span>
-          <img
-            loading="lazy"
-            src="./images/kitten-smokes-meme.jpg"
-            alt="Картинка где котёнок курит. Помните, что курение вредно для вашего здоровья."
-            class="card__image semi-transparent"
-          />
-        </div>
+        <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
+        <figure class="card-image__wrapper">
+          <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
+          <picture>
+            <source src="./images/kitten-smokes-meme.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="./images/kitten-smokes-meme.jpg"
+              alt="Картинка с курящим котёнком. Помните что курение вредно для вашего здоровья."
+              class="card__image semi-transparent"
+            />
+          </picture>
+        </figure>
         <div class="card-text__wrapper">
           <p>
             На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы
@@ -285,16 +298,19 @@
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
-        <div class="card-image__wrapper">
-          <span class="card-image__label">&lt;/html&gt;</span>
-          <img
-            loading="lazy"
-            src="./images/rats-meme.jpg"
-            alt="Мем про крыс 'Двум крысам дали одно и то же количество CSS-анимаций'"
-            class="card__image grayed"
-          />
-        </div>
+        <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
+        <figure class="card-image__wrapper">
+          <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
+          <picture
+            ><source src="./images/rats-meme.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="./images/rats-meme.jpg"
+              alt="Мем про крыс 'Двум крысам дали одно и то же количество CSS-анимаций'"
+              class="card__image grayed"
+            />
+          </picture>
+        </figure>
         <div class="card-text__wrapper">
           <p>
             Всё это время вы были не одиноки (хотя, возможно, иногда и
@@ -353,16 +369,19 @@
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">3 спринт: Обходные стратегии</h3>
-        <div class="card-image__wrapper">
-          <span class="card-image__label">&lt;/html&gt;</span>
-          <img
-            loading="lazy"
-            src="./images/max-payne-meme.jpg"
-            alt="Мем про Макса Пейна, многозначительно смотрящего на бумажку."
-            class="card__image caspered"
-          />
-        </div>
+        <h2 class="card__title">3 спринт: Обходные стратегии</h2>
+        <figure class="card-image__wrapper">
+          <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
+          <picture
+            ><source src="./images/max-payne-meme.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="./images/max-payne-meme.jpg"
+              alt="Мем про Макса Пейна, многозначительно смотрящего на бумажку."
+              class="card__image caspered"
+            />
+          </picture>
+        </figure>
         <div class="card-text__wrapper">
           <p>
             На этом курсе вы постоянно решали разные задачи. В какой-то момент
@@ -370,9 +389,8 @@
             время посмотреть на задачу под другим углом.
           </p>
           <p>
-            Тут произошёл резкий скачок не сколько сложности, сколько
-            монотонности и неиллюстративности резльтатов проектов. Много раз
-            вспоминал эту картинку.
+            Тут произошёл резкий скачок монотонности и неиллюстративности
+            резльтатов проектов. Много раз вспоминал эту картинку.
           </p>
         </div>
         <div class="card__like-button-bar">
@@ -419,16 +437,22 @@
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
-        <div class="card-image__wrapper">
-          <span class="card-image__label">&lt;/html&gt;</span>
-          <img
-            loading="lazy"
-            src="./images/doom-cover-art-meme.jpg"
-            alt="Обложка видеоигры DOOM, переделанная под борьбу с Практикумом."
-            class="card__image saturated"
-          />
-        </div>
+        <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
+        <figure class="card-image__wrapper">
+          <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
+          <picture
+            ><source
+              src="./images/doom-cover-art-meme.webp"
+              type="image/webp>"
+            />
+            <img
+              loading="lazy"
+              src="./images/doom-cover-art-meme.jpg"
+              alt="Обложка видеоигры DOOM, переделанная под борьбу с Практикумом."
+              class="card__image saturated"
+            />
+          </picture>
+        </figure>
         <div class="card-text__wrapper">
           <p>
             Во время учёбы часто возникает чувство, когда не знаешь, за что
@@ -486,16 +510,19 @@
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">«Сейчас я здесь»</h3>
-        <div class="card-image__wrapper">
-          <span class="card-image__label">&lt;/html&gt;</span>
-          <img
-            loading="lazy"
-            src="./images/raccoon-meme.jpg"
-            alt="Мем про фермера, фраза 'Это немного, но это честная работа'"
-            class="card__image old-moneyed"
-          />
-        </div>
+        <h2 class="card__title">«Сейчас я здесь»</h2>
+        <figure class="card-image__wrapper">
+          <figcaption class="card-image__label">&lt;/html&gt;</figcaption>
+          <picture>
+            <source src="images/raccoon-meme.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="./images/raccoon-meme.jpg"
+              alt="Мем про фермера, фраза 'Это немного, но это честная работа'"
+              class="card__image old-moneyed"
+            />
+          </picture>
+        </figure>
         <div class="card-text__wrapper">
           <p>
             Сейчас вы уже очень много знаете о вёрстке. Но это только начало.
@@ -553,36 +580,36 @@
           </button>
         </div>
       </article>
-    </main>
-    <footer>
-      <button
-        class="button-basic memory__button"
-        onclick="window['memory-dialog'].showModal()"
-        aria-controls="memory-dialog"
-      >
-        <svg viewBox="0 0 28 28">
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-      <dialog class="memory-dialog" id="memory-dialog">
-        <div class="memory__dialog-textblock">
+      <div class="footer">
+        <button
+          class="button-basic memory__button"
+          onclick="window['memory-dialog'].showModal()"
+          aria-controls="memory-dialog"
+        >
           <svg viewBox="0 0 28 28">
             <use href="./svg/floppy.svg#floppy"></use>
           </svg>
-          <p class="memory-dialog__text">
-            Вставьте дискету, чтобы продолжить
-          </p>
-        </div>
-        <button
-          class="button-basic memory-dialog__button"
-          type="button"
-          onclick="window['memory-dialog'].close()"
-        >
-          <span class="button__text">ОК</span>
+          <span class="button__text">Сохранить на память</span>
         </button>
-      </dialog>
-    </footer>
+        <dialog class="memory-dialog" id="memory-dialog">
+          <div class="memory__dialog-textblock">
+            <svg viewBox="0 0 28 28">
+              <use href="./svg/floppy.svg#floppy"></use>
+            </svg>
+            <p class="memory-dialog__text">
+              Вставьте дискету, чтобы продолжить
+            </p>
+          </div>
+          <button
+            class="button-basic memory-dialog__button"
+            type="button"
+            onclick="window['memory-dialog'].close()"
+          >
+            <span class="button__text">ОК</span>
+          </button>
+        </dialog>
+      </div>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
